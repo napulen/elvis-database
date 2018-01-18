@@ -220,7 +220,7 @@ That should be about it! If you look at the config file, you'll notice all we're
 
 
 ## Setting up nginx
-nginx should already be running having been installed when you downloaded all the dependencies. You can check that it is running using `sudo systemctl status nginx`. 
+nginx should have been installed already when you downloaded all the dependencies. You can check that it is running using `sudo systemctl status nginx`. 
 
 We save site definitions in `/etc/nginx/sites-available`, then make a link to the sites we wish to actually serve in `/etc/nginx/sites-enabled`.
 
